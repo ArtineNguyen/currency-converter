@@ -1,0 +1,29 @@
+body{
+    background-color: aliceblue;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#contain{
+    padding-left: 20%;
+    padding-right: 20%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    max-height: 50px;
+}
+
+#resultarea{
+    font-size: 18pt;
+    font-style: oblique;
+    flex-direction: column;
+}

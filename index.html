@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML & JavaScripts</title>
+</head>
+
+<body>
+    <div id="contain">
+        <h1>Currency Converter</h1>
+        <h3>From Currency</h3>
+        <select id="from" style="height: 30px">
+            <option value="USD">USD</option>
+            <option value="VND">VND</option>
+            <option value="EUR">EUR</option>
+            <option value="AUD">AUD</option>
+            <option value="KRW">KRW</option>
+        </select>
+        <h3>To Currency</h3>
+        <select id="to" style="height: 30px">
+            <option value="VND">VND</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="AUD">AUD</option>
+            <option value="KRW">KRW</option>
+        </select>
+        <br>
+
+        <input type="number" id="amount" style="height: 30px;" />
+
+        <button onclick="convertCurrency()" style="height: 50px">
+            Convert Now
+        </button>
+
+        <span id="resultarea"></span>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
